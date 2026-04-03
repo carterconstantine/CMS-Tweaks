@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "X": "minecraft:gunpowder",
+    "#": [
+      "sand",
+      "minecraft:red_sand"
+    ],
+    "O": "minecraft:redstone_block"
+  },
+  "pattern": [
+    "X#X",
+    "#O#",
+    "X#X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:block_state": {
+        "unstable": "true"
+      },
+      "minecraft:item_name": {
+        "text": "Unstable TNT"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:tnt"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": [
+      "sandstone",
+      "red_sandstone"
+    ],
+    "O": "minecraft:emerald",
+    "X": [
+      "minecraft:blaze_powder"
+    ]
+  },
+  "pattern": [
+    "X#X",
+    "#O#",
+    "X#X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "text": "Totem of Barely Surviving"
+      },
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 255,
+                "duration": 100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:totem_of_undying"
+  }
+}
